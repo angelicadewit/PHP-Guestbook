@@ -4,12 +4,11 @@
     <li><a href="addcomment.php">Add Comment</a></li> 
 </ul> -->
 
-<ul>
+<ul class="nav">
     <?php
         $urls = array(
             'Home' => '/',
             'Guestbook' => 'guestbook.php',
-            'Add Comment' => 'addcomment.php',
 
         );
 

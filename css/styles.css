@@ -1,0 +1,84 @@
+body{
+	background-color: #78CDD7;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color: #FFFFFA;
+}
+
+.wrapper{
+	position: relative;
+	top: 100px;
+	width: 960px;
+	margin: auto;
+	background: #0D5C63;
+	padding: 15px 25px;
+	display: flex;
+	flex-direction: column;
+	flex: 1 0 auto;
+}
+
+ul{
+	display: flex;
+	justify-content: center;
+}
+
+li{
+	padding: 15px;
+	background: #78CDD7;
+	margin-right: 20px;
+	border: 1px solid white;	
+}
+
+a{
+	text-decoration: none;	
+	color: #0D5C63;
+}
+
+.maincontent{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+h1{
+	font-size: 24px;
+	text-align: center;	
+	padding: 20px;
+}
+
+.form-group{
+	padding-right: 30px;
+}
+
+.entries-wrapper{
+	columns: 2;
+
+}
+
+.entry{
+	margin-bottom: 20px;
+}
+
+.footer{
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+
+input[name="firstname"],
+input[name="lastname"],
+input[name="phonenumber"],
+input[name="email"],
+textarea,
+select {
+	transition: all 0.30s ease-in-out;
+	outline: none;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 4%;
+	border: 1px solid #ccc;
+	padding: 3%;
+	color: #555;
+	font: 95% Arial, Helvetica, sans-serif;
+}
+

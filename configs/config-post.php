@@ -13,11 +13,13 @@
 
     //if you want to start debugging, use var_dump and die()
 
-    $name = $_POST['name'];
+    $firstname = $_POST['firstname'];
+    $lastname = $_POST['lastname'];
+    $phonenumber = $_POST['phonenumber'];
     $email = $_POST['email'];
     $message = $_POST['message'];
 
-    $sql = "INSERT INTO entries(name, email, message) VALUES ('$name', '$email', '$message')";
+    $sql = "INSERT INTO entries(firstname, lastname, phonenumber, email, message) VALUES ('$firstname', '$lastname', '$phonenumber', '$email', '$message')";
     
     if (!mysqli_query($con,$sql)){
         die('Error:' . mysqli_error($con));
